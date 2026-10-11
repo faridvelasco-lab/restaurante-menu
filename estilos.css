@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+nav {
+  background-color: #8b1a1a;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #b22222;
+  margin-bottom: 15px;
+}
+
+.plato {
+  background-color: white;
+  border-left: 5px solid #b22222;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plato h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio {
+  color: #b22222;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #b22222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 5px 5px 5px 0;
+}
+
+.boton:hover {
+  background-color: #8b1a1a;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
